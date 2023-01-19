@@ -37,6 +37,8 @@ I found a few entries where speed and course have a vlaue of -1, from my underst
 
 I did not find a quick solution for assessing if a point is "on land"
 
+I also could not quickly find how to determine if a track starts/ends in Cowes
+
 #### What percentage of tracks exceeded 10 knots (nautical miles per hour)?
 
 the gpx files had no mention of units of measure, if considering the speed recorded there in m/s then the answer is 5.5%
