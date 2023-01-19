@@ -85,6 +85,8 @@ def load_to_redshift(queries: list) -> None:
             Database=config["database"], 
             SecretArn=config["secret_arn"],
             Sql=query)
+    
+    return
 
 
 def main():
