@@ -45,6 +45,14 @@ if the speed is already recorded in knots then 1.43%
 
 I think the speed is most likely recorded in m/s
 
+## Data Model
+
+![GPX table](savvynavvy.png)
+
+Except for the timestamp, all entry are stored as floats, double precision datatype on redshift. 
+
+I added a track_id column that is simply the index number from the pandas dataframe
+
 # ETL
 
 Running etl.py will process, clean and upload the data to redshift.
